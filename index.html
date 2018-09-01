@@ -1,44 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HTML wireframe</title>
+    <title>Philip Lutz</title>
+    <meta name="description" content="Full-stack web developer currently based in San Diego, California">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <script <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- SMOOTH SCROLL -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+    $(function() {
+     $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+    <!-- End of SMOOTH SCROLL -->
 </head>
 <body>
-    <nav role="navigation">Nav</nav>
+    <header>
+        <div class="container">
+            <nav role="navigation" id="navigation">
+                <a href="#page1" class="logo">Philip Lutz</a>
+                <a aria-label="mobile menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <ul class="menu-left">
+                    <li><a href="#page2">About</a></li>
+                    <li><a href="#page3">Projects</a></li>
+                    <li><a href="#page4">Skills</a></li>
+                    <li><a href="#page5">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
     <main role="main">
-        <header role="banner">
-            <h1>Philip Lutz</h1>
-            <h3>Web Developer</h3>
-        </header>
-
-        <section>
-            <h2>About Me</h2>
+        <section id="page1" role="banner">
+            <div class="container">
+                <h1>Philip Lutz</h1>
+                <h3>Web Developer</h3>
+            </div>
         </section>
 
-        <section>
-            <h2>Projects</h2>
-            <section>
-                <h4>Hang Lab</h4>
-            </section>
-            <section>
-                <h4>Jam</h4>
-            </section>
-            <section>
-                <h4>Picturesque</h4>
-            </section>
+        <section id="page2">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    Throughout my life, I have been drawn to artistic aethetics, understanding complex processes, and solving challenging problems.  My interest in software development and effectively conveying information in unique ways grew in my undergraduate studies while using GIS applications for geology classes and projects.  Despite all the hours of pestering my friends in the computer science department about programming and algorithms, I graduated from Oberlin College and Conservatory with two degrees: Classical Guitar Performance and Geology.  Being a curious and motivated individual, I taught myself the basics of Python, and knowing that I wanted to cultivate my coding skills, I enrolled and completed Thinkful's Full Stack Web Development course.When I am not coding or obsessing over design details, I am pursuing my passion for rock climbing.  Coincidentally, difficult rock climbing creates a significant amount of mandatory rest, and that time is usually spent cooking a nice meal or playing through a Bach fugue.
+                </p>
+            </div>
         </section>
 
-        <section>
-            <h2>Tech Skills</h2>
+        <section id="page3">
+            <div class="container">
+                <h2>Projects</h2>
+                <div>
+                    <h4>Hang Lab</h4>
+                    <img src="">
+                    <p>
+                        Meticulously recording workouts and training programs in giant handwritten notebooks is extremely common among rock climbers who want to see progression in their performance.  Hang Lab was created using Node.js and allows climbers to record and track their most valuable physical attribute: finger strength.
+                    </p>
+                </div>
+                <div>
+                    <h4>Jam</h4>
+                    <img src="">
+                    <p>
+                        Connecting with other musicians is always a valuable experience, and it is not always clear how one should go about satisfying the desire to play music with other individuals.  Jam is a way for people to post musical meetup events similar a bulletin board, and it utilizes React.js on the front-end and Node.js on the back-end.
+                    </p>
+                </div>
+                <div>
+                    <h4>Picturesque</h4>
+                    <img src="">
+                    <p>
+                        Inspired to create a quirky twist to the classic weather app, Picturesque utilizes information from Weather Underground, Google Maps, and the Color API to paint a mood for your day with a unqiue color scheme that is randomly generated from GPS coordinates of the searched location.
+                    </p>
+                </div>
+            </div>
         </section>
 
-        <section>
-            <h2>Contact</h2>
+        <section id="page4">
+            <div class="container">
+                <h2>Tech Skills</h2>
+            </div>
+        </section>
+
+        <section id="page5">
+            <div class="container">
+                <h2>Contact</h2>
+            </div>
         </section>
     </main>
-    <footer role="content-info">Footer</footer>
 </body>
 </html>

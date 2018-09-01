@@ -3,8 +3,7 @@
 }
 
 body {
-  font-family: "Open Sans",
-  sans-serif; 
+  font-family: 'Cairo', sans-serif;
   font-size: 20px;
   color: #444;
   text-align: center;
@@ -24,8 +23,6 @@ nav {
   right: 0;
   z-index: 10;
 }
-
-
 
 header {
   padding: 12% 0;
