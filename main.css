@@ -21,7 +21,7 @@ nav {
   right: 0;
   z-index: 10;
   padding: 1vh;
-  background-color: black;
+  background-color: rgba(0,0,0,0.8);
   height: 7vh;
   width: 100%;
 
@@ -31,12 +31,6 @@ nav a {
   text-decoration: none;
   color: #578EE0;
 }
-
-nav a:hover {
-  color: #9BACA0;
-}
-
-
 
 #logo {
   position: absolute;
@@ -76,29 +70,91 @@ li {
 
 #title-container {
   position: absolute;
-  top: 11vh;
+  top: 6vh;
   left: 20vw;
-  font-size: 3vw;
+  font-size: 5vw;
   color: black;
+}
+
+#title-container h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
 }
 
 #page2 {
   padding-top: 7vh;
-  height: 128vh;
+  height: 150vh;
+  background-color: #9BACA0;
+  font-size: 5vw;
+}
+
+p {
+  margin: 6vw;
+}
+
+#page2-button a:hover {
+  color: #9BACA0;
 }
 
 #page3 {
   padding-top: 7vh;
-  height: 200vh;
+  height: 260vh;
+  background-color: #A3B0D7;
+  font-size: 5vw;
+}
+
+#page3 h3 {
+  padding-top: 3vh;
+}
+
+#page3 img {
+  height: 24vh;
+}
+
+#page3-button a:hover {
+  color: #A3B0D7;
 }
 
 #page4 {
   padding-top: 7vh;
   height: 128vh;
+  background-color: #E7A875;
+}
+
+#icon-list {
+  font-size: 28vw;
+}
+
+#page4-button a:hover {
+  color: #E7A875;
 }
 
 #page5 {
   padding-top: 11vh;
-  height: 128vh;
+  height: 100vh;
+  background-color: #515187;
+}
+
+#page5 img {
+  height: 40vh;
+  border-radius: 10vh;
+}
+
+#contact-icons i {
+  color: black;
+  font-size: 10vh;
+  margin-top: 3vh;
+  padding: 2vw;
+}
+
+#contact-icons i:hover {
+  color: #578EE0;
+}
+
+#page5-button a:hover {
+  color: #515187;
 }
 

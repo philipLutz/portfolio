@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- SMOOTH SCROLL -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -33,23 +34,19 @@
         <header>
             <nav role="navigation" id="navigation">
                 <a href="#page1" id="logo"><b>Philip Lutz</b></a>
-                <a aria-label="mobile menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
                 <ul class="menu-left">
-                    <li><a href="#page2">About</a></li>
-                    <li><a href="#page3">Projects</a></li>
-                    <li><a href="#page4">Skills</a></li>
-                    <li><a href="#page5">Contact</a></li>
+                    <li id="page2-button"><a href="#page2">About</a></li>
+                    <li id="page3-button"><a href="#page3">Projects</a></li>
+                    <li id="page4-button"><a href="#page4">Skills</a></li>
+                    <li id="page5-button"><a href="#page5">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <section id="page1" role="banner">
             <div id="title-container">
-                <h1>Web Developer</h1>
+                <h1>Philip Lutz</h1>
+                <h2>Web Developer</h2>
             </div>
         </section>
 
@@ -57,7 +54,7 @@
             <div class="container">
                 <h1>About Me</h1>
                 <p>
-                    Throughout my life, I have loved creating aethetics, understanding processes, and solving problems.  My interest in software development and effectively conveying information in unique ways grew in my undergraduate studies while using GIS applications for geology classes and projects.  Despite all the hours of pestering my friends in the computer science department about programming and algorithms, I graduated from Oberlin College and Conservatory with two degrees: Classical Guitar Performance and Geology.  Being a curious and motivated individual, I taught myself the basics of Python, and knowing that I wanted to cultivate my coding skills, I enrolled and completed Thinkful's Full Stack Web Development course. <br> When I am not coding or obsessing over design details, I am pursuing my passion for rock climbing.  Coincidentally, difficult rock climbing creates a significant amount of mandatory rest, and that time is usually spent cooking a nice meal or playing through a Bach fugue.
+                    Throughout my life, I have loved pursuing artistic endeavors, understanding complex processes, and solving challenging problems.  My interest in software development and effectively conveying information in unique ways grew during my undergraduate studies while using GIS applications for geology classes and projects.  Despite all the hours of pestering my friends in the computer science department about programming and algorithms, I graduated from Oberlin College and Conservatory with two degrees: Classical Guitar Performance and Geology.  Being a curious and motivated individual, I taught myself the basics of Python, and knowing that I wanted to cultivate my coding skills, I enrolled and completed Thinkful's Full Stack Web Development course. <br> <br> When I am not coding or obsessing over design details, I am pursuing my passion for rock climbing.  Coincidentally, difficult rock climbing creates a significant amount of mandatory rest, and that time is usually spent cooking a nice meal or playing through a Bach fugue.
                 </p>
             </div>
         </section>
@@ -67,21 +64,21 @@
                 <h1>Projects</h1>
                 <div>
                     <h3>Hang Lab</h3>
-                    <img src="">
+                    <a href="https://github.com/philipLutz/hang-lab" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/philipLutz/hang-lab/master/Screen%20Shot%202018-06-05%20at%2020.10.19.png" alt="Hang Lab chart"></a>
                     <p>
                         Meticulously recording workouts and training programs in giant handwritten notebooks is extremely common among rock climbers who want to see progression in their performance.  Hang Lab was created using Node.js and allows climbers to record and track their most valuable physical attribute: finger strength.
                     </p>
                 </div>
                 <div>
                     <h3>Jam</h3>
-                    <img src="">
+                    <a href="https://github.com/philipLutz/jam-client" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/philipLutz/jam-client/master/Screen%20Shot%202018-08-24%20at%2015.47.19.png" alt="Jam landing page"></a>
                     <p>
                         Connecting with other musicians is always a valuable experience, and it is not always clear how one should go about satisfying the desire to play music with other individuals.  Jam is a way for people to post musical meetup events similar a bulletin board, and it utilizes React.js on the front-end and Node.js on the back-end.
                     </p>
                 </div>
                 <div>
                     <h3>Picturesque</h3>
-                    <img src="">
+                    <a href="https://github.com/philipLutz/Picturesque" target="_blank" rel="noopener"><img src="https://user-images.githubusercontent.com/36082324/37562908-be526e46-2a30-11e8-9860-f7b9dcebfad6.png" alt="Picturesque landing page"></a>
                     <p>
                         Inspired to create a quirky twist to the classic weather app, Picturesque utilizes information from Weather Underground, Google Maps, and the Color API to paint a mood for your day with a unqiue color scheme that is randomly generated from GPS coordinates of the searched location.
                     </p>
@@ -92,12 +89,27 @@
         <section id="page4">
             <div class="container">
                 <h1>Tech Skills</h1>
+                <div id="icon-list">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-node"></i>
+                    <i class="fab fa-react"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-python"></i>
+                </div>
             </div>
         </section>
 
         <section id="page5">
             <div class="container">
                 <h1>Contact</h1>
+                <img src="https://raw.githubusercontent.com/philipLutz/portfolio/master/headshot%202.jpg" alt="headshot">
+                <div id="contact-icons">
+                    <a href="https://github.com/philipLutz" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/philip-lutz-1331b942/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:philiplutz413@gmail.com"><i class="fas fa-envelope-square"></i></a>
+                </div>
             </div>
         </section>
     </main>
