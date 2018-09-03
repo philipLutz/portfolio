@@ -21,31 +21,39 @@ nav {
   right: 0;
   z-index: 10;
   padding: 1vh;
-  background-color: #aaa;
-  height: 11vh;
+  background-color: black;
+  height: 7vh;
   width: 100%;
+
 }
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #578EE0;
+}
+
+nav a:hover {
+  color: #9BACA0;
 }
 
 
 
 #logo {
   position: absolute;
-  font-size: 3vw;
-  left: 1vw;
-  top: 0.5vw;
+  font-size: 6vw;
+  left: 2vw;
+  bottom: 1vh;
 }
 
 ul {
   display: inline-block;
   position: absolute;
-  top: 0;
-  right: 0;
+  bottom: 1vh;
+  right: 1vw;
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 li {
@@ -54,7 +62,7 @@ li {
   margin-left: 1vw;
   margin-right: 1vw;
   width: 12vw;
-  font-size: 2vw;
+  font-size: 5vw;
 }
 
 #page1 {
@@ -75,22 +83,22 @@ li {
 }
 
 #page2 {
-  padding-top: 11vh;
-  height: 100vh;
+  padding-top: 7vh;
+  height: 128vh;
 }
 
 #page3 {
-  padding-top: 11vh;
-  height: 100vh;
+  padding-top: 7vh;
+  height: 200vh;
 }
 
 #page4 {
-  padding-top: 11vh;
-  height: 100vh;
+  padding-top: 7vh;
+  height: 128vh;
 }
 
 #page5 {
   padding-top: 11vh;
-  height: 100vh;
+  height: 128vh;
 }
 
