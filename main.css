@@ -34,7 +34,7 @@ nav a {
 
 #logo {
   position: absolute;
-  font-size: 6vw;
+  font-size: 3vh;
   left: 2vw;
   bottom: 1vh;
 }
@@ -46,7 +46,7 @@ nav a {
 ul {
   display: inline-block;
   position: absolute;
-  bottom: 1vh;
+  bottom: 1.5vh;
   right: 1vw;
   list-style: none;
   margin-top: 0;
@@ -60,7 +60,7 @@ li {
   margin-left: 1vw;
   margin-right: 1vw;
   width: 12vw;
-  font-size: 5vw;
+  font-size: 2vh;
 }
 
 #page1 {
