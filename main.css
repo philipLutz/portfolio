@@ -65,7 +65,7 @@ li {
 
 #page1 {
   height: 120vh;
-  background-image: url("https://raw.githubusercontent.com/philipLutz/portfolio/master/landing.jpg");
+  background-image: url("https://github.com/philipLutz/portfolio/blob/master/photos/landing.jpg?raw=true");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -192,7 +192,7 @@ p {
 
   #page1 {
     height: 120vh;
-    background-image: url("https://raw.githubusercontent.com/philipLutz/portfolio/master/landing.jpg");
+    background-image: url("https://github.com/philipLutz/portfolio/blob/master/photos/landing.jpg?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -328,7 +328,7 @@ p {
 
   #page1 {
     height: 120vh;
-    background-image: url("https://raw.githubusercontent.com/philipLutz/portfolio/master/landing.jpg");
+    background-image: url("https://github.com/philipLutz/portfolio/blob/master/photos/landing.jpg?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
